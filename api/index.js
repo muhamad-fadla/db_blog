@@ -9,4 +9,4 @@ server.use(router);
 
 const port = process.env.PORT || 3000;
 
-server.listen(port, () => console.log(`Server running on ${port}, http://localhost:${port}`));
+module.exports = server;
