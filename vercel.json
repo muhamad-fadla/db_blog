@@ -12,9 +12,9 @@
             "dest": "/"
         }
     ],
-    "functions": {
-	    "./index.js": {
-	      "includeFiles": "./**"
-	    }
-	}
+ //    "functions": {
+	//     "./index.js": {
+	//       "includeFiles": "./**"
+	//     }
+	// }
 }
