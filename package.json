@@ -1,7 +1,11 @@
 {
-  "main": "server.js",
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "serve": "nodemon index.js"
   },
   "dependencies": {
     "json-server": "^0.16.2"
