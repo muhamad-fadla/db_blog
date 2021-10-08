@@ -11,7 +11,9 @@ server.use([
 		bodyParser.json({ limit: '10mb', extended: false }),
   		bodyParser.urlencoded({ extended: false }),
 	]);
-server.use(compression())
+server.use(compression({
+	threshold: 0
+}))
 
 server.use((req, res, next) => {
       if (req.method === 'GET') {
